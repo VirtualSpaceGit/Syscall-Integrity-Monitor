@@ -178,6 +178,5 @@ int main() {
         MonitorSyscalls();
         Sleep(5000);
     }
-    
     return 0;
 }
