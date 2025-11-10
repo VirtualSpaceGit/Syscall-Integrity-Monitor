@@ -32,7 +32,7 @@ The Syscall Integrity Monitor employs advanced detection techniques to identify 
 
 ## ⚠️ Important Notice
 
-This is a **highly experimental proof of concept** for demonstration purposes. The current implementation performs system-wide scanning with basic signed binary exclusion. For production use or practical deployment, you should implement:
+This is a **highly experimental proof of concept** for demonstration purposes. The current implementation performs system-wide scanning with basic signed binary exclusion. For production, you should implement:
 
 * **Proper exclusion logic** for legitimate processes and system directories
 * **Targeted monitoring** of specific executables or directories instead of system-wide scanning
